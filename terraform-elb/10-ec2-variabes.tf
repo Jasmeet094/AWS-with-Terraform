@@ -9,3 +9,8 @@ variable "key-name" {
   type    = string
   default = "terraform-key"
 }
+
+variable "instance-name" {
+  type = list(string)
+  default = ["private1","private2"]  
+}

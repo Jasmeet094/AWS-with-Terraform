@@ -10,6 +10,4 @@ locals {
   }
 }
 
-locals {
-  instance-name = { "private-1" = {}, "private-2" = {} }
-}
+

@@ -10,5 +10,12 @@ module "private-sg" {
   ingress_cidr_blocks = [module.vpc.vpc_cidr_block]
   ingress_rules       = ["ssh-tcp", "http-80-tcp"]
   egress_rules        = ["all-all"]
-  tags                = local.common_tags
+  
+   tags = {
+    Terraform = "true"
+    env       = local.environment
+
+  }
+
+
 }
