@@ -14,6 +14,11 @@ module "vpc" {
   enable_vpn_gateway = true
   single_nat_gateway = true
 
+   # Database Subnets
+  database_subnets = var.vpc_database_subnets
+  create_database_subnet_group = var.vpc_create_database_subnet_group
+  create_database_subnet_route_table = var.vpc_create_database_subnet_route_table
+
   tags = {
     Terraform   = "true"
     Environment = var.env
