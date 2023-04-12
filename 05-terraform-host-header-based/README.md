@@ -1,5 +1,5 @@
 
-AWS Application Load Balancer with Route53 (Host based routing)
+## AWS Application Load Balancer with Route53 (Host based routing)
 
 By using this demo/tutorial a simple 2 tier application will be created using terraform and aws resources. Application will be accessible at app1.jasmeetdevops.com , app2.jasmeetdevops.com and myapps.jasmeetdevops.com.
 

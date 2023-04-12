@@ -4,7 +4,7 @@ PLEASE NOTE - CURRENTLY THERE IS A BUG IN THIS TERRAFORM PROJECT, SO IF YOU WANT
 ####################################################
 
 
-AWS 3 tier Web Application using Application Load Balancer, Route53 and RDS (mysql)
+## AWS 3 tier Web Application using Application Load Balancer, Route53 and RDS (mysql)
 
 This is a 3 tier `springboot java application` deployed on AWS. SO in this demo we are deploying aws resources like vpc , rds ,alb , route53 , cartificates and registering domain for our application. On instances private-app1 and private-app2 we are deploying a simple html page app which can be accessible on this URL - `dev.jasmeetdevops.com/app1/` and app2 will be accessible on `dev.jasmeetdevops.com/app2/`.
 
