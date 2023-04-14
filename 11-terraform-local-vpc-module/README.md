@@ -15,7 +15,7 @@ In this small project , i am showing that how we can create local module for AWS
 [Terraform](https://registry.terraform.io/) | [AWS-DOCS](https://docs.aws.amazon.com/index.html)
 
 
-## Terraform files Exaplained:
+## Terraform files Explained:
 
 1. 01-vpc-module.tf
 `This tf file is used for creating all VPC related resources. I am using VPC module (version-"3.19.0") in this file. You can check all inputs that i am providing in the file and i used varibales for most of the resources.This will create public and private subnets , NAT gateway for private instances which i am also going to create`
