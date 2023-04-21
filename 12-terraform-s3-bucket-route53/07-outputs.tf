@@ -19,3 +19,8 @@ output "endpoint" {
   description = "Endpoint Information of the bucket"
   value       = aws_s3_bucket_website_configuration.website_conf.website_endpoint
 }
+
+output "s3-hosted-zone" {
+  description = "Hosted-Zone Information of the bucket"
+  value       = aws_s3_bucket.test_bucket.hosted_zone_id
+}

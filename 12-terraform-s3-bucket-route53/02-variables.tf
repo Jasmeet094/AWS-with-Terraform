@@ -11,3 +11,8 @@ variable "tags" {
   type        = map(string)
 
 }
+
+variable "domain_name" {
+  type        = string
+  description = "The domain name for the website."
+}

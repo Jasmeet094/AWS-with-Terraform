@@ -1,8 +1,11 @@
 # insert values of variables as per your needs
 
-bucket_name = "my-test-bucket-s3-site"
+bucket_name = "jasmeetdevops.com"
+
 tags = {
   Terraform = "true"
   Env       = "test"
   Team      = "devops"
 }
+
+domain_name = "jasmeetdevops.com"
